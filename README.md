@@ -67,6 +67,10 @@ The plugin automatically creates configuration files in the `plugins/BramAdmin` 
 
 ## Release Notes
 
+## Support
+For support, please open an issue on the GitHub repository or contact the plugin author directly.
+https://dsc.gg/smpstore
+
 ### Version 1.0.0
 
 - Initial release with mute, ban, and staff utility functionality.
