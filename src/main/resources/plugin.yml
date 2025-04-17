@@ -1,0 +1,4 @@
+name: bramAdmin
+version: '1.0'
+main: bramcraft.net.bramAdmin.BramAdmin
+api-version: '1.21'
