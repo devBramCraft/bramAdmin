@@ -1,5 +1,7 @@
-package bramcraft.net.bramAdmin;
+package bramcraft.net.bramAdmin.Listener;
 
+import bramcraft.net.bramAdmin.BramAdmin;
+import bramcraft.net.bramAdmin.StaffChatToggle;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;

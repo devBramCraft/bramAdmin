@@ -1,0 +1,26 @@
+# config.yml
+# Hi,
+# Discord Support: https://discord.gg/aJt6QaWAbn
+# For everthing just go to the discord
+# event for support that isn't our plugin
+
+
+fly:
+  enabled: true
+  defaultSpeed: 0.1
+staffchat:
+  prefix: "&8[&bStaff&8] &r"
+  format: "%prefix%%player%: %message%"
+punish:
+  ban-reasons:
+    1d: "Breaking server rules"
+    7d: "Serious misconduct"
+    perma: "Extreme violation of the rules"
+
+  ban: "&cYou have been banned for {duration}. Reason: {reason}"
+  mute: "&eYou have been muted for {duration}. Reason: {reason}"
+  warn: "&6You have received a warning: {reason}"
+  unban: "&aYou have been unbanned."
+  unmute: "&aYou have been unmuted."
+  no-permission: "&cYou don't have permission to do that."
+  gui-title: "Punishing {player}"

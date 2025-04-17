@@ -1,5 +1,7 @@
-package bramcraft.net.bramAdmin;
+package bramcraft.net.bramAdmin.Listener;
 
+import bramcraft.net.bramAdmin.BramAdmin;
+import bramcraft.net.bramAdmin.commands.VanishCommand;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;

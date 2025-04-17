@@ -2,3 +2,104 @@ name: bramAdmin
 version: '1.0'
 main: bramcraft.net.bramAdmin.BramAdmin
 api-version: '1.21'
+
+commands:
+  fly:
+    description: Toggle fly mode for staff
+    usage: /fly
+    permission: bramadmin.fly
+    permission-message: §cYou don't have permission to use /fly
+
+  vanish:
+    description: Toggle vanish mode
+    usage: /vanish
+    aliases: [v]
+    permission: bramadmin.vanish
+    permission-message: §cYou don't have permission to use /vanish
+
+  staffchat:
+    description: Send a message to staff chat
+    usage: /staffchat <message>
+    permission: bramadmin.staffchat
+    permission-message: §cYou don't have permission to use staff chat
+
+  sc:
+    description: Toggle staff chat
+    usage: /sc
+    permission: bramadmin.staffchat
+    permission-message: §cYou don’t have permission to use /sc
+
+  staff:
+    description: Toggle full staff mode
+    usage: /staff
+    permission: bramadmin.staff
+    permission-message: §cYou don’t have permission to use /staff
+  invsee:
+    description: View another player's inventory
+    usage: /invsee <player>
+    permission: bramadmin.invsee
+    permission-message: §cYou don’t have permission to use /invsee
+  flyspeed:
+    description: Set your fly speed
+    usage: /flyspeed <1-10>
+  bramadmin:
+    description: Core command for bramAdmin plugin
+    usage: /bramadmin [reload]
+    permission: bramadmin.use
+    permission-message: You don't have permission to use this command.
+
+
+  punish:
+    description: Opens the punishment GUI
+    usage: /punish <player>
+    permission: bramadmin.punish
+  unban:
+    description: Unbans a player
+    usage: /unban <player>
+    permission: bramadmin.unban
+  unmute:
+    description: Unmutes a player
+    usage: /unmute <player>
+    permission: bramadmin.unmute
+
+permissions:
+  bramadmin.use:
+    description: Allows use of /bramadmin
+    default: true
+
+  bramadmin.reload:
+    description: Allows reloading bramAdmin config
+    default: op
+  bramadmin.fly:
+    description: Allows player to toggle flight
+    default: op
+  bramadmin.flyspeed:
+    description: Allows the player to use /flyspeed
+    default: op
+
+  bramadmin.vanish:
+    description: Allows player to vanish
+    default: op
+
+  bramadmin.staffchat:
+    description: Allows player to view and use staff chat
+    default: op
+
+  bramadmin.staff:
+    description: Allows player to use staff mode (fly, vanish, creative, etc.)
+    default: op
+  bramadmin.invsee:
+    description: Allows use of /invsee
+    default: op
+  bramadmin.base:
+    description: Use /bramadmin help & goat command
+    default: op
+  bramadmin.punish:
+    description: Allows player to use the punishment GUI
+    default: op
+  bramadmin.unban:
+    description: Allows player to unban players
+    default: op
+  bramadmin.unmute:
+    description: Allows player to unmute players
+    default: op

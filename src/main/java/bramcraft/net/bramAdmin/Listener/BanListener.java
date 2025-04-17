@@ -1,10 +1,10 @@
-package bramcraft.net.bramAdmin;
+package bramcraft.net.bramAdmin.Listener;
 
+import bramcraft.net.bramAdmin.BramAdmin;
 import org.bukkit.BanEntry;
 import org.bukkit.BanList;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerLoginEvent;

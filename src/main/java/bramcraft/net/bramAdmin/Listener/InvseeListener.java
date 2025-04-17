@@ -1,4 +1,4 @@
-package bramcraft.net.bramAdmin;
+package bramcraft.net.bramAdmin.Listener;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;

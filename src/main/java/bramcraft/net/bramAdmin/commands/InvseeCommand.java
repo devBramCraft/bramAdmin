@@ -1,4 +1,4 @@
-package bramcraft.net.bramAdmin;
+package bramcraft.net.bramAdmin.commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
